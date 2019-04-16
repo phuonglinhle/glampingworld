@@ -38,7 +38,7 @@ class PhoneOrder:
         Label(window, text = "Item Total", bg='#9EE9AB').grid(row = 7, column = 1, sticky = W)
         Button(window, text = "Add to Cart", bg = 'yellow', fg = 'blue').grid(row = 6, column = 3, sticky = W)
 
-        
+        #Button not working.
         
         #Frame(window, bg='blue').place(relx=0.5, rely=0,relwidth=0,relheight=5,anchor='n')
 
