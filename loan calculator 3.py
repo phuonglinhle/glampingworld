@@ -29,7 +29,7 @@ class LoanCalculator:
         
         window.mainloop() # Create an event loop to display the window
 
-    # function computePayment calls the getMonthlyPayment function with arguments assigned the values from the user
+    # function computePayment calls the getMonthlyPayment function with arguments assigned to the values from the user
     def computePayment(self):
         monthlyPayment = self.getMonthlyPayment(
             float(self.loanAmountVar.get()), 
