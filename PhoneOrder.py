@@ -78,7 +78,7 @@ class PhoneOrder:
         itemNameButton.place(x=122,y=140)
         itemNameButton.config(width=13)
 
-        #store all the entry of the itemName
+        #store all the entries of the itemName
         cartlist=[]
         testing=[]
         
