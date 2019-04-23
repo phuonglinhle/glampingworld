@@ -132,14 +132,14 @@ def print_menu(theCart):                       #print_menu is a function of the 
       print('OUTPUT SHOPPING CART')
       theCart.print_total()
    
-   return menuOp                             #return menu option the user selected
+   return menuOp                             #return menu option the user selected.
 
-if __name__ == "__main__":                   # the main module of the shopping cart class starts here
+if __name__ == "__main__":                   # the main module of the shopping cart class starts here.
    menuChoice = ' '
-   custName = input('Enter customer\'s name:\n') # ask for the customer name and today's date
+   custName = input('Enter customer\'s name:\n') # ask for the customer name and today's date.
    dayDate = input('Enter today\'s date:\n')
    
-   print('\nCustomer name: %s' % custName)       # print customer name and today's date
+   print('\nCustomer name: %s' % custName)       # print customer name and today's date.
    print('Today\'s date: %s' % dayDate)
    
    myCart = ShoppingCart(custName, dayDate)      # create an instance of Shopping Cart called myCart passing it as arguments customer name and date
